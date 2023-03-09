@@ -20,12 +20,12 @@ class Profile extends HTMLElement {
         this.render();
     }
 
-    renedr(){
+    render(){
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./src/components/profile/card/indexprofile.css">
-        <image>${this.photo}</image>
+        <link rel="stylesheet" href="./src/components/profile/indexprofile.css">
+        <image><img src="./src/components/Images/pp.png"> </image>
         <my-card name="Danna" age="20" distance="A 8 kilómetros de distancia"></my-card>
-        <my-buttons back="./images/back.png" reject="./images/reject.png" super="./images/super.png" like="./images/like.png" thunder="./images/thunder.png"></my-buttons>
+        <my-buttons></my-buttons></my-buttons>
         `
     }
 }

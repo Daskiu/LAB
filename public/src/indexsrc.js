@@ -13,6 +13,8 @@ class AppContainer extends HTMLElement {
 
     render() {
         this.shadowRoot.innerHTML = `
+        <my-header></my-header>
+        <my-menu></my-menu>
         <my-profile></my-profile>
         `;
       }

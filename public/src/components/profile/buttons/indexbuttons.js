@@ -17,15 +17,17 @@ class Buttons extends HTMLElement {
         this.render();
     }
 
-    renedr(){
+    render(){
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./src/components/profile/buttons/indexbuttons.css">
         <section>
-            <image>${this.back}</image>
-            <image>${this.reject}</image>
-            <image>${this.super}</image>
-            <image>${this.like}</image>
-            <image>${this.thunder}</image>
+        <image> 
+        <img src="./src/components/Images/back.png">
+        <img src="./src/components/Images/reject.png">
+        <img src="./src/components/Images/super.png">
+        <img src="./src/components/Images/like.png">
+        <img src="./src/components/Images/thunder.png">
+        </image>
         </section>
         `
     }

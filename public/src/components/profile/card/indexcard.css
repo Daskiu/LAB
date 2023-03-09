@@ -1,13 +1,21 @@
 section{
-    background-color: rgb(97, 97, 97);
+   margin-top: -150px;
+   padding-left: 20px;
 }
 
 h1{
     font-style: bold;
-    font-size: 10px;
+    font-size: 30px;
+    margin-top: -200px;
 }
 
 h3{
     font-style: italic;
-    font-size: 10px;
+    font-size: 30px;
+    padding-left: 100px;
+    margin-top: -58px;
+}
+
+p{
+    margin-top: -20px;
 }

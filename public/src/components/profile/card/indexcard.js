@@ -17,7 +17,7 @@ class Card extends HTMLElement {
         this.render();
     }
 
-    renedr(){
+    render(){
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./src/components/profile/card/indexcard.css">
         <section> 
