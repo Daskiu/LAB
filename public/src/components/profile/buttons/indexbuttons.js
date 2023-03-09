@@ -31,5 +31,5 @@ class Buttons extends HTMLElement {
     }
 }
 
-customElements.define("my-card", Buttons);
+customElements.define("my-buttons", Buttons);
 export default Buttons;
