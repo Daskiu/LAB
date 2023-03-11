@@ -7,6 +7,11 @@ h1{
     font-style: bold;
     font-size: 30px;
     margin-top: -200px;
+    font-family:sans-serif;
+    color: white;
+    position: absolute;
+    left: 780px;
+    top: 650px;
 }
 
 h3{
@@ -14,8 +19,18 @@ h3{
     font-size: 30px;
     padding-left: 100px;
     margin-top: -58px;
+    font-family:sans-serif;
+    color: white;
+    position: absolute;
+    left: 800px;
+    top: 510px;
 }
 
 p{
     margin-top: -20px;
+    color: white;
+    font-family:sans-serif;
+    position: absolute;
+    left: 780px;
+    top: 530px;
 }

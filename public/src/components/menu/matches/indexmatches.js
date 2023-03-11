@@ -23,7 +23,7 @@ class Matches extends HTMLElement{
     render(){
             this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./src/components/menu/matches/indexmatches.css">
-        <my-match message="3 Me gusta"></my-match>
+        <my-match message="3 Likes" id="mat"></my-match>
         `;
     }
 }

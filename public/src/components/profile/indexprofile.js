@@ -23,9 +23,10 @@ class Profile extends HTMLElement {
     render(){
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./src/components/profile/indexprofile.css">
-        <image><img src="./src/components/Images/pp.png"> </image>
+        <image><img src="./src/components/Images/pp.png" id="p1"> </image>
         <my-card name="Danna" age="20" distance="A 8 kilómetros de distancia"></my-card>
         <my-buttons></my-buttons></my-buttons>
+        <image><img src="./src/components/Images/iconostinder2.png" id="p2"> </image>
         `
     }
 }

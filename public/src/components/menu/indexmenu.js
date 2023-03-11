@@ -23,13 +23,14 @@ class Menu extends HTMLElement{
 
     render(){
             this.shadowRoot.innerHTML = `
-        <my-header></my-header>
+        <link rel="stylesheet" href="./src/components/menu/indexmenu.css">
         <section>
-        <h1>Matches</h1>
-        <h1>Mensajes</h1>
+        <h1 id="ma" >Matches</h1>
+        <h1 id="me" >Mensajes</h1>
         </section>
         <section>
         <my-matches></my-matches>
+        <div id="cb"></div>
         </section>
         `;
     }

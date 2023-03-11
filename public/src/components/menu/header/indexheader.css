@@ -1,0 +1,50 @@
+#h1 {
+    font-family:sans-serif;
+    position: relative;
+    top: 25px; 
+    left: 70px; 
+    font-size: 14px;
+    color: white;
+}
+
+#icon1{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -15px; 
+    left: 150px; 
+}
+
+#icon2{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -15px; 
+    left: 160px; 
+}
+
+#icon3{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -15px; 
+    left: 170px; 
+}
+
+#red{
+    background: rgb(255,88,100);
+    background: linear-gradient(90deg, rgba(255,88,100,1) 0%, rgba(255,0,126,1) 50%, rgba(255,101,91,1) 100%);
+    width: 360px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#perfil{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}

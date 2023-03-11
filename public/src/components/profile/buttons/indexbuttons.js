@@ -22,11 +22,11 @@ class Buttons extends HTMLElement {
         <link rel="stylesheet" href="./src/components/profile/buttons/indexbuttons.css">
         <section>
         <image> 
-        <img src="./src/components/Images/back.png">
-        <img src="./src/components/Images/reject.png">
-        <img src="./src/components/Images/super.png">
-        <img src="./src/components/Images/like.png">
-        <img src="./src/components/Images/thunder.png">
+        <img src="./src/components/Images/back.png" id="b1">
+        <img src="./src/components/Images/reject.png" id="b2">
+        <img src="./src/components/Images/super.png" id="b3">
+        <img src="./src/components/Images/like.png" id="b4">
+        <img src="./src/components/Images/thunder.png" id="b5">
         </image>
         </section>
         `

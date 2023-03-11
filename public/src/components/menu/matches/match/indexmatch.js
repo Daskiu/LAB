@@ -21,12 +21,13 @@ class Match extends HTMLElement{
     render(){
             this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./src/components/menu/matches/match/indexmatch.css">
-        <section>
-        <image>
-        <h1>${this.message}</h1>
-        <img src="./src/components/Images/pp.jpg">
-        </image>
+       
+        <section id="jp">
+        <h1 id="message">${this.message}</h1>
+        <img id="pp" src="./src/components/Images/pp.jpg">
+
         </section>
+       
         `;
     }
 }

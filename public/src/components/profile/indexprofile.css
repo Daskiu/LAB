@@ -1,3 +1,15 @@
-image{
-    margin-left: 500px;
+#p1{
+    position: absolute;
+    left: 750px;
+    top: 10px;
+    border-radius: 2em;
+    height: 648px;
+    width: 400px;
+}
+
+#p2{
+    position: absolute;
+    top: 670px;
+    left: 550px;
+    height: 29px;
 }
